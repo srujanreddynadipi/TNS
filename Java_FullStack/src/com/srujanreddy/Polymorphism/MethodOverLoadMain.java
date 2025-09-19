@@ -5,6 +5,9 @@ public class MethodOverLoadMain {
 			MethodOverLoad m = new MethodOverLoad();
 			m.hello();
 			m.hello(2);
-			m.hello(1,2);
+			m.hello(2.8f);
+			
+			m.hello(1,2.9f);
+			m.hello(2.7f,3);
 		}
 }
