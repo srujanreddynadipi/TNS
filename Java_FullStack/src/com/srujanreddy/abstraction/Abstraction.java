@@ -2,7 +2,7 @@ package com.srujanreddy.abstraction;
 
 public abstract class Abstraction {
 	abstract void show();
-	
+	    
 	public void demo() {
 		
 		System.out.println("this is method ");
